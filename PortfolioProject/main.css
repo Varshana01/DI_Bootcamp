@@ -1,0 +1,111 @@
+
+body{
+ background-image:url( https://rssamboro-web.s3-us-west-1.amazonaws.com/20150707103634-E18-63_PO-150721133920.jpg?v=20150721130922);
+  background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+    color: Black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+    background: url(http://www.freelancewriteremily.com/wp-content/uploads/2016/02/rsz_freelance-writing-portfolio.png)no-repeat;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.navbar-light{
+    width: 100%;
+}
+#overlay {
+  position: relative; /*Sit on top of the page content */
+  /*display: none;  Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255,0.3); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1,h2{
+     font-family: 'IM Fell English SC', serif;
+     color: #3c1a00;
+}
+
+
+.nav-padding{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar a.active {
+  background-color: #e3d1b9;
+  color: white;}
+
+.container-2{
+    margin-right: 45vh;
+}
+    .col-6{
+        border-left: 2px solid #108888;
+    }
+.about{
+    color: #108888;
+}
+h4{
+    color: grey;
+}
+.container-3{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    margin: 5vh;
+}
+
+.container{
+    margin: 20px;
+}
+.container-4{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+.port , .blog , .team , .contact{
+    text-align: center;
+    margin: 20px;
+}
+.name{
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient( 109.5deg,  rgba(229,233,177,1) 11.2%, rgba(223,205,187,1) 100.2% );
+    font-family: 'IM Fell English SC', serif;
+}
+.master{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fa-github , .fa-facebook , .fa-linkedin ,{
+    color: #3c1a00;
+    background-color: #e3d1b9;
+    font-size: 70%;
+}
