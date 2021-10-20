@@ -1,0 +1,37 @@
+header{
+	background-image: url(https://www.lonestarcashservices.com/wp-content/uploads/2019/08/midland-computer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75vh;
+	padding-top: 25vh;
+}
+.text{
+	margin-top: 7vh;
+	text-align: center;
+}
+.nav-padding{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar-brand{
+	margin-right: 47vh !important;
+	margin-left: 47vh !important;
+   
+}
+.nav-link.active{
+	margin-left: 17vh;
+}
+
+.cook{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Georama', sans-serif;
+}
+.fa-lightbulb,.fa-wallet,.fa-mobile-alt{
+	font-size: 350%;
+	color: #2894d1;
+}

@@ -1,0 +1,47 @@
+body{
+	background-image: url(https://images.wallpapersden.com/image/download/iron-man-in-avengers-endgame_a2lpZWyUmZqaraWkpJRoamlsrWplZWU.jpg);
+	background-size: cover;
+}
+header{
+	font-family: 'Righteous', cursive;
+	font-size: 400%;
+}
+.container{
+	padding: 4px;
+	margin: 5px;
+	border: 2px solid black;
+	margin-top: 400px;
+	margin-left: 200px;
+	background-color: rgba(161, 147, 133, 0.5);
+
+}
+img{
+	float: left;
+}
+footer{
+     clear: both;
+     margin-left: 200px;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.7);
+     width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    div {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    div {
+        width: 25%;
+        float: left;
+    }
+}

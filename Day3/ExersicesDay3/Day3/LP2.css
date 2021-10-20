@@ -1,0 +1,60 @@
+body{
+	background-image: url(https://i.pinimg.com/originals/95/d7/e4/95d7e40c90d4b72ea228af23e21f48f9.jpg);
+	background-size: cover;
+}
+header{
+	background-color: #32676d;
+	text-align: center;
+	height: 45px;
+
+}
+p{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bolder;
+	color: white;
+}
+button{
+	background-color: #00a1d8;
+	color: white;
+}
+h1{
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+}
+h3{
+	font-size: 100%;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+}
+h4{
+	font-size: 90%;
+	font-family: 'Varela Round', sans-serif;
+}
+.container-2{
+	display: flex;
+	text-align: center;
+	justify-content: safe center;
+}
+.inner-div-1{
+	display: inline-flex;
+	justify-content: space-between;
+	align-self: center;
+}
+.container-3{
+	display: flex;
+	text-align: center;
+	margin: 30px;
+	width: 50%;
+	margin-left: 30%;
+}
+.down{
+	text-align: center;
+}
+img {
+  border-radius: 50%;
+}
+.pic{
+	display: flex;
+	align-items: flex-end;
+	float: right;
+}

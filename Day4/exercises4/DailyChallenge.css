@@ -1,0 +1,15 @@
+*{
+	margin: 5px;
+	padding: 5px;
+}
+.col-sm-2{
+	background-color: #f5f5f5;
+	border: 1px solid lightgrey;
+	height: 40vh;
+}
+h1,h2,h3{
+	font-family: 'Tinos', serif;
+}
+.small{
+	color: grey;
+}

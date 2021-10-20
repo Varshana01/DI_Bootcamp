@@ -1,0 +1,45 @@
+:root {
+  --pixel-20-gap: 5px;
+  --color-green: beige;
+}
+.wrapper{
+	height: 100vh;
+    display: grid;
+    grid-gap: var(-pixel-20-gap); /*var closes the gap*/
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer ." /* for empty cells, add a . */
+}
+header{
+	grid-area: header;
+	border: 1px solid black;
+	background-color: var(--color-green);
+	padding:var(--pixel-20-gap);
+}
+article{
+	grid-area: content;
+	border: 1px solid black;
+	background-color: var(--color-green);
+	padding: var(--pixel-20-gap)
+}
+aside{
+	grid-area: sidebar;
+	border: 1px solid black;
+	background-color: var(--color-green);
+}
+footer{
+	grid-area: footer;
+	border: 1px solid black;
+	background-color: var(--color-green);
+}
+@media( max-width:768px ){
+	.wrapper{
+		grid-template-columns: 4fr;
+		grid-template-areas: 
+		"header"
+		"sidebar"
+		"footer"
+	}
+}

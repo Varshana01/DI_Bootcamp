@@ -1,0 +1,36 @@
+
+    .navbar-light{
+    width: 120% !important;
+}
+.nav-padding{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar a.active {
+  color: white;}
+
+  .d-flex{
+    margin-right: 50vh;
+  }
+  .btn-outline-success{
+    background-color: green;
+    color: white;
+  }
+  .text{
+    margin-top: 10vh;
+
+  }
+  h2{
+    font-family: 'Georama', sans-serif;
+    color: black;
+
+  }
+  .p-5.bg-light{
+    padding: 0 !important;
+    height: 40vh;
+  }
+  .mb-3{
+    margin-right: 10vh;
+  }

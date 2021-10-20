@@ -1,0 +1,105 @@
+
+header{
+    background-image: url(https://freedesignfile.com/upload/2017/04/People-waiting-for-job-interview-HD-picture-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    padding-top: 25vh;
+}
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 87%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0,0.3); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.text{
+    color: white;
+    font-size: 150%;
+    margin-top: 30vh;
+    text-align: center;
+}
+.sub-text{
+    font-size: 85%;
+    margin-top: 5vh;
+}
+.nav-padding{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar-brand{
+    margin-right: 10vh !important;
+    margin-left: 25vh !important;
+   
+}
+.nav-link.active{
+    margin-left: 2vh;
+    margin-right: 5vh;
+}
+.nav-item.active.is{
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+h1,h2,h3,h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.container-1{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+        width: 100vh;
+    margin-left: 60vh;
+}
+.btn-outline-success{
+    background-color: #66A738 !important;
+    color: white !important;
+}
+.cook{
+    font-size: 10vh;
+}
+.fa-clinic-medical,.fa-car,.fa-city,.fa-hamburger,.fa-globe-americas,.fa-money-bill{
+    font-size: 210%;
+    margin-left: 13vh;
+    margin-top: 5vh;
+}
+.container-3{
+    background-color: #66A738;
+}
+.col{
+    border-left: 1px solid grey;
+}
+hr{
+    width: 5%;
+    margin: revert !important;
+    color: inherit !important;
+    background-color: black !important;
+    opacity: 1.5 !important;
+}
+.jobs{
+    margin-top: 10vh;
+}
+.p-5.bg-light{
+    margin-top: 7vh;
+}
+.outer-div{
+    display: inline-flex;
+    flex-direction: row;
+}
+.inner-div{
+    margin: 5px;
+    padding: 5px;
+}
+.fa-user-check,.fa-chart-bar,.fa-newspaper{
+    font-size: 7vh;
+    color: #66A738;
+}

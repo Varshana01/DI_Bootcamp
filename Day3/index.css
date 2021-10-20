@@ -1,0 +1,29 @@
+.outer-div{
+	height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+}
+.inner-div{
+   border: 3px dotted black;
+   padding: 30px;
+   text-align: center;  
+}
+.box-1{
+	background-color: palegreen;
+	order: 2;
+	align-self: stretch;
+	flex-grow: 1;  /*it will be 1x the size of the others*/
+}
+.box-2{
+	background-color: turquoise;
+	order: 3;   /* controls order alignment INSIDE FLEXBOX */
+	align-self: flex-end;
+	flex-shrink: 2; /*it will shink by 2*/
+}
+.box-3{
+	background-color: pink;
+	order: 1;
+	flex-grow: 2; /*it will be 2x the size of the others*/
+}

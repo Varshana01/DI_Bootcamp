@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.outer-div {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.inner-div {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content:stretch;
+  align-items: center;
+}
+.inner-div.col-1{
+  flex-direction: column;
+}
+.inner-div.col-2 {
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.box {
+  background-color: #FFFF00;
+  border: 1px solid #000;
+  width:100px;
+  height: 100px;
+  margin: 20px;
+}

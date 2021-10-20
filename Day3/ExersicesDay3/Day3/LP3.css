@@ -1,0 +1,125 @@
+
+:root {
+  --pixel-20-gap: 5px;
+  --color-green: #195475;
+}
+body{
+	background-image: url(https://www.trendsintile.com/plogger/plog-content/images/signature-ceramic/color--dimensions-3x6-colors/silver_grey_mt_1.jpg);
+	background-size: cover;	
+}
+h1,h2,h3,p,h4{
+	font-family: 'Georama', sans-serif;
+
+	text-align: center;
+}
+.box-1{
+	margin-top: 10vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    margin-left: 20vh;
+    margin-top: 30px;
+}
+.head{
+	width: 40vh;
+	height: 20px;
+	border: 1px solid black;
+	background-color: #2894d1;
+}
+
+aside{
+	width: 40vh;
+	height: 40vh;
+	border: 1px solid black;
+	background-color: white;
+}
+footer{
+	width: 40vh;
+	height: 60vh;
+	border: 1px solid black;
+	background-color: var(--color-green);
+}
+.foot{
+ 	height: 61vh;
+ 	font-size: 75%;
+	color: white;
+	margin-left: 0;
+}
+.container{
+	display: inline-flex;
+	flex-direction: row;
+	
+	align-items: baseline;
+	
+}
+/* Add a white background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #195475;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
+p{
+	margin: 0;
+}
+.fa-female , .fa-male , .fa-people-arrows{
+	font-size: 200%;
+	text-align: center;
+	margin-left: 19vh;
+}
+b{
+	font-size: 7vh;
+	font-family: 'Georama', sans-serif;
+	margin-left: 12vh;
+}
+button{
+	font-size: 40%;
+	background-color: #4B9E4B;
+	margin-left: 12vh;
+}
+.cred{
+	font-size: 65%;
+	color: grey;
+}
+.list{
+	height: 57vh;
+	font-size: 75%;
+	color: white;
+	margin-left: 0;
+}
+.ques{
+	color: white;
+	background-color: #00a1d8;
+	font-size: 75%;
+	margin-left: 180vh;
+}
+.fa-microblog{
+	color: white;
+}
+.touch{
+	font-size: 5vh;
+	margin-left: 7vh !important;
+}
